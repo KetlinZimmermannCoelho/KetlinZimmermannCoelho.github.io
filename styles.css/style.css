@@ -95,22 +95,29 @@ img {
     background: #B07DFB;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* CONTENT */
 .content {
     grid-area: content;
 }
 
+
+
+
+
+
+
+
+
+/* FOOTER */ 
 .footer {
     grid-area: footer;
+    background: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 
