@@ -70,22 +70,40 @@ img {
     margin-left: 30px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* SIDENAV */ 
 .sidenav {
     grid-area: sidenav;
+    background: #fafbfc;
+    padding: 30px;
 }
+
+.sidenav li a {
+    display: grid;
+    padding: 20px;
+    background: white;
+    color: #5b05dd;
+    font-size: 20px;
+    font-family: 'Vollkorn', Georgia, serif;
+    margin: 0 auto 30px auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0px rgba(44,44,44,0.15);
+    justify-items: center;
+    transition: .1s ease-out;
+}
+
+.sidenav li a:hover {
+    background: #B07DFB;
+}
+
+
+
+
+
+
+
+
+
+
 
 .content {
     grid-area: content;
